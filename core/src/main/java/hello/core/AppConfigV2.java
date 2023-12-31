@@ -47,7 +47,9 @@ public class AppConfigV2 {
     public OrderService orderService() {
         System.out.println("call AppConfigV2.orderService");
         return new OrderServiceImpl(memberRepository(), discountPolicy());
+
     }
+
     @Bean
     public MemberRepository memberRepository() {
         System.out.println("call AppConfigV2.memberRepository");

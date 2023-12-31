@@ -31,4 +31,16 @@ public class OrderServiceTest {
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
 
     }
+
+    @Test
+    void fieldInjectionTest() {
+
+//        OrderServiceImpl orderService1 = new OrderServiceImpl();
+//
+//        orderService1.setDiscountPolicy(new FixDiscountPolicy());
+//        orderService1.setMemberRepository(new MemoryMemberRepository());
+//
+//        orderService1.createOrder(1L, "time", 10000);
+
+    }
 }

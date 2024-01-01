@@ -4,7 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CoreApplicationTests { // 스프링 띄우는 거라서 좀 느림
+class CoreApplicationTests { //스프링 컨테이너 테스트
+
+
 
 	@Test
 	void contextLoads() {

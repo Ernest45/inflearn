@@ -32,17 +32,17 @@ public class OrderServiceTest {
 
     }
 
-    @Test
-    void fieldInjectionTest() {
+//    @Test
+//    void fieldInjectionTest() {
 
 //        OrderServiceImpl orderService1 = new OrderServiceImpl();
 //
 //        orderService1.setDiscountPolicy(new FixDiscountPolicy());
 //        orderService1.setMemberRepository(new MemoryMemberRepository());
 //
-//        orderService1.createOrder(1L, "time", 10000);
+//        orderService1.createOrder(1L, "time", 10000);}
 
     }
 
 
-}
+

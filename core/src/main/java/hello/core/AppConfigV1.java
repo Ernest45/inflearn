@@ -7,6 +7,7 @@ import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
 import hello.core.member.MemoryMemberRepository;
 import hello.core.order.OrderService;
+import hello.core.order.OrderServiceImpl;
 
 // 스프링을 사용하지 않는 예제
 public class AppConfigV1 { // 앱 컨피그가 외부에서 넣어주는 애 역할
@@ -21,8 +22,8 @@ public class AppConfigV1 { // 앱 컨피그가 외부에서 넣어주는 애 역
     }
 
     public OrderService orderService() {
-//        return new OrderServiceImpl(MemberRepository(), discountPolicy());
-        return null;
+        return new OrderServiceImpl(MemberRepository(), discountPolicy());
+
     }
 
     public MemberRepository MemberRepository() {

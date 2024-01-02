@@ -15,6 +15,6 @@ public class HelloLombok {
         helloLombok.setName("sda");
 
         String name1 = helloLombok.getName();
-        System.out.println("name1 = " + name1);ㅐ
+        System.out.println("name1 = " + name1);
     }
 }
